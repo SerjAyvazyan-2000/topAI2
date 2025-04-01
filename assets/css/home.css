@@ -1,0 +1,223 @@
+
+.hero-body {
+    padding: 124px 45px 0 45px;
+}
+
+.hero-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--dark-black);
+
+}
+
+.hero-sub-title {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--dark-black);
+    opacity: .5;
+
+}
+
+
+.hero-slide-block {
+    margin-top: 40px;
+
+}
+
+.hero-slide {
+    height: 280px;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    margin: 0 auto;
+    padding: 25px 15px 15px 15px;
+}
+
+.hero-slide-img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+
+}
+
+
+.hero-slide-img img {
+    border-radius: 20px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.slide-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--white);
+
+}
+
+.hero-slide-tolls {
+    margin-top: auto;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.slide-logo {
+    max-width: 28px;
+    width: 100%;
+    height: 28px;
+}
+
+.slide-info {
+    gap: 7px;
+}
+
+.slide-reviews p {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: var(--white);
+
+}
+
+.slide-reviews span {
+    font-weight: 300;
+    font-size: 8px;
+    line-height: 100%;
+    color: var(--white);
+    margin-top: 2px;
+
+}
+
+.slide-link {
+    padding: 8px 15px;
+    background: var(--white2);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    gap: 7px;
+    cursor: pointer;
+    transition: .3s;
+
+
+}
+
+.slide-link:hover {
+    background: var(--black);
+}
+
+.slide-link:hover span {
+    color: var(--white);
+}
+
+.slide-link:hover .icon-hero-insert {
+    background: var(--white);
+}
+
+.slide-link span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: var(--dark-black);
+    transition: .3s;
+
+}
+
+.icon-hero-insert {
+    font-size: 8px;
+    background: var(--black2);
+    transition: .3s;
+
+}
+
+.swiper-pagination {
+    position: initial !important;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.swiper-pagination-bullet {
+    opacity: .1 !important;
+    margin: 0 !important;
+    width: 4px !important;
+    height: 4px !important;
+    background: var(--dark-black) !important;
+
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--dark-black) !important;
+    opacity: .7 !important;
+
+}
+
+
+.icon-arrow-down {
+    font-size: 9px;
+    background: var(--white);
+    transition: .3s;
+
+}
+
+.hero-link {
+    margin-top: 40px;
+}
+
+.hero-link a {
+    gap: 10px;
+    padding: 15px 40px;
+    background: var(--dark-black);
+    border-radius: 12px;
+    transition: .3s;
+
+}
+
+.hero-link a span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    text-align: center;
+    color: var(--white);
+    transition: .3s;
+
+}
+
+
+.hero-link a:hover {
+    opacity: .7;
+}
+
+.text-generation-cnt {
+    margin-top: 30px;
+}
+
+.table-item-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 130%;
+    color: var(--dark-black);
+
+}
+
+
+@media (max-width: 500px) {
+
+    .hero-slide {
+        max-width: 230px;
+    }
+
+}

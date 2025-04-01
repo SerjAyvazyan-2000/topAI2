@@ -1,0 +1,59 @@
+
+.footer {
+    padding: 50px 10px;
+    background: var(--dark-black);
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.footer-body {
+    gap: 40px;
+}
+
+
+
+
+
+.footer-menu-list {
+    gap: 25px;
+    flex-wrap: wrap;
+    max-width: 300px;
+
+
+}
+.footer-menu-link {
+    color: var(--white);
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    transition: .3s;
+
+
+}
+.footer-menu-link:hover{
+    opacity: .7;
+}
+
+
+
+
+
+@media (max-width: 600px) {
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+
+
+}
+
+@media (max-width: 400px) {
+
+
+}

@@ -1,0 +1,184 @@
+
+:root {
+    --white: rgba(255, 255, 255, 1);
+    --white2: rgba(255, 255, 255, 0.8);
+
+    --black: rgba(0, 0, 0, 0.02);
+    --black2: rgba(28, 27, 31, 1);
+    --black3: rgba(0, 0, 0, 0.05);
+    --dark-black: rgba(0, 0, 0, 1);
+
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+
+}
+
+
+.container {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+
+}
+
+
+.text-wrap {
+    display: block;
+}
+
+.desktop-text-wrap {
+    display: block;
+}
+
+
+.img-mobile {
+    display: none;
+}
+
+.section {
+    margin-top: 80px;
+}
+
+
+.block-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: var(--dark-black);
+
+}
+
+.block-text {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    opacity: .5;
+    color: var(--dark-black);
+    max-width: 320px;
+    margin: 10px auto 0;
+}
+
+
+.block-table{
+    border-radius: 20px;
+    border: 1px solid var(--black3);
+    margin: 40px auto 0 ;
+
+}
+
+
+.table-title-row {
+    padding: 23px 20px 13px 20px;
+    gap: 80px;
+    border-bottom: 1px solid var(--black3);
+    justify-content: space-between;
+
+
+}
+
+.table-title-row p {
+    min-width: 100px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: center;
+    opacity: .7;
+    color: var(--dark-black);
+
+}
+
+.table-item-row{
+    padding: 10px 20px;
+    gap: 10px;
+    border: 1px solid var(--black3);
+    justify-content: center;
+
+}
+
+.table-item-number{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 130%;
+    color: var(--dark-black);
+    opacity: .2;
+
+}
+
+
+.table-item-img{
+    max-width: 24px;
+    width: 100%;
+    height: 24px;
+}
+
+.table-item-ai{
+    gap: 10px;
+    flex: 1 1 auto;
+}
+
+.table-item-link {
+    padding: 12px 20px;
+    border-radius: 12px;
+    background: var(--dark-black);
+    gap: 10px;
+    margin-left: 16px;
+    transition: .3s;
+
+}
+.table-item-link:hover{
+    opacity: 0.8;
+}
+.table-item-link span {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    color: var(--white);
+}
+.icon-table-insert{
+    font-size: 7px;
+    background: var(--white);
+}
+
+@media (max-width: 600px) {
+
+
+}
+
+
+@media (max-width: 576px) {
+    .mobile-text-wrap {
+        display: block;
+    }
+
+
+    .desktop-text-wrap {
+        display: inline;
+    }
+
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+
+
+}
