@@ -102,11 +102,13 @@
 .table-item-row{
     padding: 10px 20px;
     gap: 10px;
-    border: 1px solid var(--black3);
+    border-bottom: 1px solid var(--black3);
     justify-content: center;
 
 }
-
+.table-item-row:last-child{
+    border-bottom: none;
+}
 .table-item-number{
     font-weight: 300;
     font-size: 12px;
